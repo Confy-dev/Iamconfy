@@ -1,2 +1,2 @@
-[# Iamconfy]
-#A personal Portfolio website
+# Iamconfy
+A personal Portfolio website
