@@ -12,7 +12,7 @@ body {
 body {
   font-family: sans-serif;
   color: #fff;
-  background-color: #333;
+  background-color: rgb(245, 241, 241);
 }
 
 .container {
@@ -36,12 +36,19 @@ img {
 
 .my-projects {
   display: Grid;
-  gap: 10px;
+  gap: 40px;
   margin-block-start: 20%;
 }
-.my-projects a {
-  font-size: 0.7em;
-  text-align: center;
+.project h6 {
+    font-size: .8em;
+    text-align: center;
+    color: #333;
+}
+.project{
+    background-color: #fff;
+    padding: 0px 0 10px 0;
+    border-radius: 3px ;
+    box-shadow: rgba(46, 46, 46, 0.13) 3px 5px 5px 5px;
 }
 
 @media (min-width: 500px) {
