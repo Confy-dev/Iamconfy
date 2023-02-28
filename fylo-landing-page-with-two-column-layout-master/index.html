@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- external fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- browser icon-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <ul>
+            <li>
+              <a href="#" class="brand"
+                > <object data="./images/logo.svg" type="" height="300" width="500" ></object> </a>
+            </li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#team" class="nav-link">Team</a></li>
+            <li><a href="#signin" class="nav-link">Sign In</a></li>
+          </ul>
+          <!-- .container ends -->
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <div class="img-content">
+            <img
+              src="/fylo-landing-page-with-two-column-layout-master/images/illustration-1.svg"
+              alt=""
+            />
+          </div>
+          <div class="text-content">
+            <header>
+              <h4>
+                All your files in one secure location, accessible anywhere.
+              </h4>
+            </header>
+
+            <div class="content">
+              <p>
+                Fylo stores your most important files in one secure location.
+                Access them wherever you need, share and collaborate with
+                friends, family, and co-workers.
+              </p>
+
+              <form action="post">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email..."
+                />
+                <button type="submit" class="btn">Get Started</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="more">
+        <div class="container">
+          <div class="">
+            <img src="./images/illustration-2.svg" alt="" />
+          </div>
+          <div class="">
+            <header>
+              <h4>Stay productive, wherever you are</h4>
+            </header>
+            <div class="content">
+              <p>
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p>
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required!
+              </p>
+              <p class="see">
+                <a href=""
+                  >See how Fylo works <img src="./images/icon-arrow.svg" alt=""
+                /></a>
+              </p>
+              <div class="testimonial card">
+                <p>
+                  <img src="./images/icon-quotes.svg" alt="" class="quote" />
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </p>
+                <!-- testimonial author -->
+                <div class="author">
+                  <!-- Author's image -->
+                  <img
+                    src="./images/avatar-testimonial.jpg"
+                    alt=""
+                    class="author-img"
+                  />
+                  <!-- Author's informaton -->
+                  <div class="info">
+                    <h6>Kyle Burton</h6>
+                    <small>Founder & CEO, Huddle</small>
+                  </div>
+                  <!--info div end-->
+                </div>
+                <!--Author div end-->
+              </div>
+              <!--Testimonials div end-->
+            </div>
+            <!--Content ends-->
+          </div>
+          <!--Container ends-->
+        </div>
+      </section>
+      <!--Content ends-->
+      <aside>
+        <div class="container">
+          <div class="text-content">
+            <h5>Get early access today</h5>
+            <p>
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+
+          <form action="post">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email..."
+            />
+            <button type="submit" class="btn">Get Started For Free</button>
+          </form>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="container">
+        <!-- logo -->
+        <div class="logo">
+          <img src="./images/logo.svg" alt="" class="brand" />
+        </div>
+
+        <!-- contact info -->
+        <div class="contact">
+          <ul>
+            <li>
+              <img src="./images/icon-phone.svg" alt="" class="icon" /> Phone:
+              +1-543-123-4567
+            </li>
+            <li>
+              <img src="./images/icon-email.svg" alt="" / class="icon">example@fylo.com
+            </li>
+          </ul>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="links">
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Privacy</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media Buttons -->
+        <div class="social"></div>
+
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Confy</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

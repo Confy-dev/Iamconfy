@@ -1,0 +1,121 @@
+/* ---------- Global Styles  ---------- */
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #555;
+}
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+/* ---------- Global Styles Ends Here ---------- */
+
+/* ---------- Section ---------- */
+section {
+  width: 80%;
+  margin: auto;
+}
+/* ---------- Section Ends Here ---------- */
+
+/* ---------- Section Header---------- */
+header {
+  /* text-align: justify; */
+  margin-block: 3em;
+}
+header h4 {
+  font-size: calc(1.1em + 1vw);
+  font-weight: 200;
+  margin-block: 0.5em;
+}
+header h5 {
+  font-size: calc(1.1em + 2vw);
+}
+header p {
+  margin-top: 1em;
+  font-size: calc(0.8em + 0.5vw);
+  text-align: center;
+  font-weight: 200;
+  color: #0e0e0e9a;
+}
+
+/* ---------- Section Header Ends Here---------- */
+
+/* ---------- Section content---------- */
+.card {
+  background-color: #fff;
+  padding: 1.5em;
+  border-radius: calc(4px + 1vw);
+  margin-bottom: 2em;
+  box-shadow: rgba(2, 95, 150, 0.24) 0px 20px 20px;
+}
+
+.card-1 {
+  border-top: calc(3px + 0.5vw) solid hsl(0, 78%, 62%);
+}
+.card-2a {
+  margin-block-end: 2em;
+  border-top: calc(3px + 0.5vw) solid hsl(180, 62%, 55%);
+}
+.card-2b {
+  border-top: calc(3px + 0.5vw) solid hsl(34, 97%, 64%);
+}
+.card-3 {
+  border-top: calc(3px + 0.5vw) solid hsl(212, 86%, 64%);
+}
+
+/* image */
+.card img {
+  width: 40px;
+  display: flex;
+  margin-left: auto;
+  /* margin: 2em 0 0.5em auto; */
+}
+
+/* Fonts */
+section .content h6 {
+  font-size: 1.2em;
+}
+section .content p {
+  color: #0e0e0e9a;
+  font-size: 0.8em;
+  margin-block: 10px;
+}
+
+/* ---------- Section content ends here---------- */
+
+/* ---------- Footer  ---------- */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ---------- Footer  ends here ---------- */
+
+/* ----------- Desktop Version --------- */
+@media (min-width: 500px) {
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  /* Fonts */
+  section .content h6 {
+    font-size: 1em;
+  }
+  section .content p {
+    font-size: 0.8em;
+  }
+
+  .card {
+    padding: 1em;
+  }
+}
+/* ----------- Desktop Version ends here --------- */

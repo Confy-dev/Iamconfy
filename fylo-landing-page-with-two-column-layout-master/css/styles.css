@@ -1,0 +1,183 @@
+/* ============  Mobile Design
+ */
+/* ------------ Global Styles ------------ */
+*,
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+p{
+  font-size: .8em;
+}
+h1,h2,h3,h4,h5,h6{
+  color: hsl(243, 87%, 12%);
+}
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn{
+  width: 100%;
+  height: 30px;
+  margin-block: 20px;
+  border: none;
+  color: #fff;
+  background: hsl(224, 93%, 58%);
+  font-weight: 700;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.199) 3px 3px 3px;
+}
+
+/* ------------ Global Styles  Ends Here------------ */
+
+/* ------------ Nav Bar ------------ */
+
+nav ul {
+  display: flex;
+  margin-block: 1.3em;
+}
+nav img {
+  width: 70px;
+  display: inline-block;
+}
+ul li:nth-child(2){
+    margin-left:auto ;
+}
+
+nav .nav-link{
+  font-size: .7em;
+  padding-inline: 6px;
+}
+/* .brand{
+  font-size: 20px heigh;
+} */
+/* ------------ Nav Bar End ------------ */
+
+/* ------------ Section one -- Hero ------------ */
+section img{
+  margin-block: 50px;
+}
+
+
+section  h4{
+  
+  font-size: 1.3em;
+  margin-block: 1em;
+}
+
+section .text-content p{
+  font-size: .9em;
+  margin-block: 1em;
+}
+
+section .text-content input{
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+}
+
+
+/* ------------ Section one -- Hero Ends ------------ */
+
+/* ------------ Section Two ------------ */
+.more{
+  background-image: url('../images/bg-curve-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 700% 100% ;
+  background-position: top;
+  margin-top: 50px;
+}
+
+.more h4{
+  font-size: .9em;
+}
+
+.more p{
+  font-size:.8em;
+  margin-block: 1.5em;
+}
+
+.see {
+  color: hsl(170, 45%, 43%);
+  text-align: center;
+  font-size: .8em;
+
+}
+.see a{
+  padding-block: 10px;
+  border-bottom:  hsl(170, 45%, 43%) 1px solid;
+}
+.see img{
+  width: 15px;
+  margin: 0;
+}
+/* ------------ Section Two ends here ------------ */
+
+/* ------------ Testimonials ------------ */
+.card{
+  box-shadow: rgba(0, 0, 0, 0.062) 1px 3px 3px 5px;
+  padding: 20px;
+  background-color: #fff;
+  margin-block: 3.5em;
+  border-radius: 5px;
+  width: 90%;
+  margin-inline: auto;
+}
+.card p {
+  margin: 0;
+  padding: 0;
+}
+.testimonial .quote{
+  margin: 0;
+  width: 20px;
+}
+.author{
+  display: flex;
+  gap: 10px;
+  align-content:flex-start;
+}
+.author-img{
+  width: 30px;
+  margin: 0;
+  border-radius: 100%;
+  
+}
+.author small{
+  font-size: .5em;
+}
+.quote{
+  display: block;
+  width: 2px;
+}
+/* ------------ Testimonials ends here ------------ */
+
+/* ------------ Aside ------------ */
+
+aside{
+  background-color: hsl(238, 22%, 44%);
+}
+/* ------------ Aside  ends------------ */
+
+
+/* ------------ Footer------------ */
+footer{
+  background-color: hsl(243, 87%, 12%);
+}
+/* ------------ Footer ends ------------ */

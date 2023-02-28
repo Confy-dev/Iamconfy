@@ -1,0 +1,119 @@
+
+/*=================Mobile Design==================
+ */
+
+/* ------------ Global Styles -----------
+ */
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: hsl(204, 43%, 93%);
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+section{
+  margin-block: 20%;
+}
+
+h5{
+  font-size:calc(14px + 1vw);
+  font-size: normal;
+}
+
+p,h6{
+  font-size: .8em;
+  margin-block: 1em;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.btn{
+  width: 100%;
+  padding: .8em;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: hsl(71, 73%, 54%);
+  font-weight: 600;
+  box-shadow: #08080834 3px 3px 3px;
+}
+
+.p30{
+  padding: 20px;
+}
+
+
+/* ------------ Community  -----------
+ */
+
+.community{
+  background-color: #fff;
+}
+.community h5{
+  color: hsl(179, 62%, 43%);
+}
+
+.community h6{
+  color:hsl(71, 73%, 54%);
+}
+
+.community p{
+  color:hsl(218, 22%, 67%);
+}
+
+/* ------------ Community Ends  -----------
+ */
+
+/* ------------ Subscriptions -----------
+ */
+.subscription{
+  background-color: hsl(179, 62%, 43%);
+}
+
+/* ------------ Subscriptions ends-----------
+ */
+
+/* ------------ Why Us -----------
+ */
+.why-us{
+  background-color: hsla(179, 62%, 43%, 0.76);
+}
+
+
+
+
+
+
+
+
+ 
+/* ------------ Footer -----------
+ */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ------------ Footer Ends -----------
+ */
+
+ /*=================Tablet Design==================
+ */
+
+ @media (min-width: 500px) {
+  .box{
+    display: flex;
+  }
+}
