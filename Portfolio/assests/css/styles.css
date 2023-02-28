@@ -60,7 +60,7 @@ ul{
 
 .container{
     width: 90%;
-    margin-inline: auto;
+    margin: auto;
 }
 /* -----------------------------------  
     #Header

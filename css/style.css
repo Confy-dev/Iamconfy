@@ -12,13 +12,18 @@ body {
 body {
   font-family: sans-serif;
   color: #fff;
-  background-color: rgb(245, 241, 241);
+  background-color: #333;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
 }
+
 p {
   font-size: 16px;
   color: #fff;
@@ -33,25 +38,42 @@ img {
 
 /* ---------- My Projects
   */
-
 .my-projects {
+  background-color: rgb(245, 241, 241);
+  padding: 20px;
+}
+
+.my-projects .box {
   display: Grid;
   gap: 40px;
-  margin-block-start: 20%;
+}
+section {
+  margin-block-start: 10%;
+}
+section h4 {
+  color: rgb(35, 36, 37);
+  margin-block: 2em;
+  text-transform: uppercase;
+  font-weight: 200;
 }
 .project h6 {
-    font-size: .8em;
-    text-align: center;
-    color: #333;
+  font-size: 0.8em;
+  color: #333;
 }
-.project{
-    background-color: #fff;
-    padding: 0px 0 10px 0;
-    border-radius: 3px ;
-    box-shadow: rgba(46, 46, 46, 0.13) 3px 5px 5px 5px;
+.project {
+  background-color: #fff;
+  padding: 0px 0 10px 0;
+  border-radius: 3px;
+  box-shadow: rgba(46, 46, 46, 0.13) 3px 5px 5px 5px;
 }
 
 @media (min-width: 500px) {
+  /* general style  */
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
   .my-projects {
     grid-template-columns: auto auto auto;
   }
